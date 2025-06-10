@@ -1,0 +1,29 @@
+<?php
+// Definimos dos números para comparar
+$numero1 = 10;
+$numero2 = 20;
+// Estructura IF
+echo "<h2>Ejemplo con IF</h2>";
+if ($numero1 < $numero2) {
+echo "El número $numero1 es menor que $numero2";
+}
+// Estructura IF-ELSE
+echo "<h2>Ejemplo con IF-ELSE</h2>";
+if ($numero1 > $numero2) {
+echo "El número $numero1 es mayor que $numero2";
+} else {
+echo "El número $numero1 NO es mayor que $numero2";
+}
+// Estructura IF-ELSEIF-ELSE con temperatura
+$temperatura = 15;
+echo "<h2>Ejemplo con IF-ELSEIF-ELSE</h2>";
+if ($temperatura > 30) {
+echo "Hace mucho calor 🥵";
+} elseif ($temperatura >= 15 && $temperatura <= 30) {
+echo "El clima es agradable 😊";
+} else {
+echo "Hace frío 🥶";
+} elseif ($temperatura < 0) {
+echo "Hace demasiado frío, está bajo cero 🧊";
+}
+?>
